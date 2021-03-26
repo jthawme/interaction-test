@@ -57,7 +57,7 @@ const MainContextContainer: React.FC<{ totalPages: number }> = ({
     if (pageNumber < totalPages) {
       history.push(`/main/${pageNumber + 1}`);
     }
-  }, [history, pageNumber]);
+  }, [history, pageNumber, totalPages]);
 
   const prevPage = useCallback(() => {
     if (pageNumber > 1) {

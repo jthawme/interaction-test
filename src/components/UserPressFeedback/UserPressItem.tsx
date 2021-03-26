@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { UserPressIcon, UserPressObj } from ".";
 import { DEFAULT_COLOR } from "../../utils/constants";
 

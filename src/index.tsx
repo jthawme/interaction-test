@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { MainContextContainer } from "./components/MainContext";
 import "./styles/global.scss";
 import { MainPage } from "./Pages/Main";
@@ -16,7 +11,7 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route path="/main/:page?">
-          <MainContextContainer totalPages={33}>
+          <MainContextContainer totalPages={1}>
             <MainPage />
           </MainContextContainer>
         </Route>

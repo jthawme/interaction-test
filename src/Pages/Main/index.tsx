@@ -1,6 +1,5 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import { SlideCommonFooter } from "../../components/SlideCommon/SliderCommonFooter";
 import { IntroSlide } from "../../Slides/IntroSlide";
 import { UserPressFeedback } from "../../components/UserPressFeedback";
 

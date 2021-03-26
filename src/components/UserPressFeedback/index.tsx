@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { DBEventType, listenForEvents } from "../../utils/db";
-import uniqid from "uniqid";
 import { UserPressItem } from "./UserPressItem";
 
 export type UserPressIcon = "smile" | "target" | "tv" | "dribbble" | "heart";
